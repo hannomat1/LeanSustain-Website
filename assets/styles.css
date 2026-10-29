@@ -182,18 +182,17 @@ footer a { text-decoration: none; margin-left: 18px; }
 .hero .who { display: block; margin-top: 26px; font-size: 15px; color: var(--muted); }
 .also { grid-column: 1 / -1; margin-top: 12px; font-size: 14px; color: var(--muted); padding: 0 4px; }
 .also b { color: var(--ink); font-weight: 700; }
-.persp-groups { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-.pg { border-radius: 14px; padding: 16px; background: #fff; border: 1px solid var(--line); }
-.pg-lbl { display: block; font-size: 12px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
-.pg ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr; gap: 8px; }
-.pg li { background: var(--soft); border-radius: 10px; padding: 12px 14px; }
-.pg li b { display: block; font-size: 15px; }
-.pg li span { font-size: 13px; color: var(--muted); }
-.pg.decide { background: var(--petrol-dark); border-color: transparent; }
-.pg.decide .pg-lbl { color: rgba(255,255,255,.7); }
-.pg.decide li { background: rgba(255,255,255,.08); color: #fff; }
-.pg.decide li span { color: rgba(255,255,255,.72); }
 .variants { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: 14px; color: var(--muted); }
 .variants b { color: var(--ink); }
 .about img { height: auto; object-position: 50% 20%; }
-@media (max-width: 1020px) { .persp-groups { grid-template-columns: 1fr; } }
+
+/* Perspektiven kompakt in einer Zeile */
+.persp-row { display: flex; flex-wrap: wrap; gap: 16px 32px; }
+.pg { display: block; }
+.pg .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.pg-lbl { display: block; margin-bottom: 8px; font-size: 12px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.chip { font-size: 14px; font-weight: 700; padding: 9px 14px; border-radius: 999px; background: #fff; border: 1px solid var(--line); white-space: nowrap; }
+.pg.decide .chip { background: var(--petrol-dark); color: #fff; border-color: var(--petrol-dark); }
+.pg.decide .pg-lbl { color: var(--petrol-dark); }
+.also { white-space: normal; }
+@media (min-width: 1021px) { .also { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } }
