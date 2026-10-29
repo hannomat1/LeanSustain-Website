@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://leansustain.de/sitemap.xml
