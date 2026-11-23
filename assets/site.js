@@ -2,7 +2,7 @@
 (function () {
   /* Buchungslink: hier den Link der Google-Kalender-Buchungsseite eintragen,
      z. B. 'https://calendar.app.google/XXXX'. Leer = Buttons öffnen eine E-Mail. */
-  var BOOKING_URL = 'https://calendar.app.google/GSX7KYtsyRinggnXA';
+  var BOOKING_URL = 'https://calendar.app.google/hJn4hmGvggd2cp1N7';
 
   var en = document.documentElement.lang === 'en';
   if (BOOKING_URL) {

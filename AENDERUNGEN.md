@@ -61,3 +61,4 @@ Buchungslink eingetragen (23.11.2026): https://calendar.app.google/GSX7KYtsyRing
 - Fälle 1 und 3 nach Hannahs Korrektur angepasst (Durchschnittswerte statt Spitzenwerte; Laufzeit gegen Mietvertrag des Ankermieters)
 - Englisch von Business-Muttersprachler-Sicht überarbeitet (en/index.html, assets/site.js)
 - DE: „Deine Lösung“ statt „Ich biete“; Pitch-Audit komplett: Kunde setzt um, Hannah prüft nach (DE/EN)
+- Neuer Buchungslink (Terminplan im Konto hannah@leansustain.de): https://calendar.app.google/hJn4hmGvggd2cp1N7
