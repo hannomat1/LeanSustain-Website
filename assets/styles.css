@@ -320,3 +320,54 @@ footer a { text-decoration: none; display: inline-flex; align-items: center; min
 footer .wrap { align-items: center; }
 footer .wrap > span:last-child { display: flex; flex-wrap: wrap; gap: 0 22px; }
 .logo svg { flex: none; }
+/* v6.1: eine Kontakt-Handlung */
+.cta-note a, .choice .alt a { color: inherit; font-weight: 700; text-underline-offset: 3px; display: inline-block; padding: 10px 0; }
+.choice-main { grid-column: span 2; }
+.choice .alt { font-size: 15px; opacity: .85; margin-top: 4px; }
+@media (max-width: 1020px) { .choice-main { grid-column: auto; } }
+@media (max-width: 720px) {
+  .head-cta { display: none; }
+  .mbar { grid-template-columns: 1fr; }
+}
+/* v7: Einstiege, Vertrauen, Brücke */
+.pk-desc .fit { display: block; margin-top: 4px; color: var(--muted); font-size: 15px; }
+.soon { display: inline-block; font-size: 12px; font-weight: 700; color: var(--petrol); background: var(--accent-soft); border-radius: 999px; padding: 3px 10px; margin-bottom: 8px; vertical-align: middle; }
+.smaller b .soon { margin: 0 0 0 8px; }
+.bridge { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 24px; margin-top: clamp(36px, 5vw, 56px); padding: 22px 26px; border-radius: 16px; background: #fff; border: 1px solid var(--line); }
+.bridge p { font-size: 1.05rem; color: var(--muted); margin: 0; }
+.bridge p b { color: var(--ink); }
+.smaller { margin-top: 36px; padding-top: 28px; border-top: 1px solid var(--line); }
+.smaller h3 { font-size: 1.2rem; margin-bottom: 14px; }
+.smaller-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.smaller-grid > div { padding: 18px 20px; border-radius: 14px; background: var(--soft); }
+.smaller-grid p { margin-top: 6px; color: var(--muted); font-size: 15px; }
+.trust { display: grid; gap: 12px; }
+.trust > div { padding: 20px 22px; border-radius: 14px; background: #fff; border: 1px solid var(--line); }
+.trust b { font-size: 1.05rem; color: var(--ink); }
+.trust p { margin-top: 6px; color: var(--muted); font-size: 16px; }
+.trust-more { margin-top: 14px; font-size: 15px; color: var(--muted); }
+
+@media (max-width: 720px) {
+  .smaller-grid { grid-template-columns: 1fr; }
+  .bridge { padding: 20px; }
+  .bridge .btn { width: 100%; justify-content: center; }
+}
+/* v8: Ergebnisse, Vormerken */
+.outcomes-sec { background: var(--petrol); color: #F2F7F5; padding: clamp(40px, 6vw, 72px) 0; }
+.outcomes-sec h2 { color: #fff; font-size: clamp(1.6rem, 3vw, 2.2rem); }
+.outcomes { list-style: none; padding: 0; margin: 22px 0 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.outcomes li { position: relative; padding: 20px 22px 20px 56px; border-radius: 14px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); font-size: 1.05rem; font-weight: 600; line-height: 1.4; }
+.outcomes li::before { content: ""; position: absolute; left: 20px; top: 22px; width: 22px; height: 22px; border-radius: 50%; background: var(--accent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23082E2A' stroke-width='3'%3E%3Cpath d='M5 12l4 4 10-10'/%3E%3C/svg%3E") center/14px no-repeat; }
+.smaller .pre { display: inline-flex; align-items: center; min-height: 44px; margin-top: 4px; font-weight: 700; font-size: 15px; color: var(--accent-text); text-underline-offset: 3px; }
+@media (max-width: 900px) { .outcomes { grid-template-columns: 1fr; } }
+/* v9: Fälle aus der Praxis */
+.cases-sec .lead { margin-top: 14px; color: var(--muted); font-size: 1.1rem; }
+.cases { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 30px; }
+.cases article { display: flex; flex-direction: column; padding: 24px; border-radius: 16px; background: #fff; border: 1px solid var(--line); box-shadow: 0 10px 30px -22px rgba(8,46,42,.35); }
+.cases h3 { font-size: 1.15rem; line-height: 1.3; }
+.cases p { margin-top: 10px; color: var(--muted); font-size: 16px; }
+.cases .win { margin-top: auto; padding-top: 14px; border-top: 1px solid var(--line); color: var(--ink); font-size: 15px; }
+.cases .win b { color: var(--accent-text); }
+.cases article > p:nth-of-type(1) { margin-bottom: 14px; }
+@media (max-width: 900px) { .cases { grid-template-columns: 1fr; } }
+.faq-sec { background: var(--soft); }

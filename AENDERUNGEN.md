@@ -36,3 +36,25 @@ Nicht anfassen: die CNAME-Datei im Repo (Domain-Zuordnung von GitHub Pages).
 3. In assets/site.js ganz oben eintragen: var BOOKING_URL = 'https://calendar.app.google/…';
    (oder Link an Claude geben)
 Ohne Link öffnen alle Buttons eine E-Mail. Den neuen Datenschutz-Abschnitt erst mit aktivem Link hochladen.
+
+Buchungslink eingetragen (23.11.2026): https://calendar.app.google/GSX7KYtsyRinggnXA – alles kann jetzt komplett hochgeladen werden.
+
+## Nachtrag 23.11.2026 (v7): vertriebliche Schärfung
+- Button-Text „Gespräch buchen“ (EN „Book a call“), weil er direkt zur Buchung führt
+- Neuer niedrigster Einstieg: „Noch kleiner anfangen?“ unter den Paketen – Onboarding-Module (ab Februar 2027) zuerst, dann Pitch-Audit kompakt; Onboarding-Karte mit Label „ab Februar 2027“
+- Angebot: Überschrift „Vom Pitch zum Rahmenvertrag.“, je Paket ein Satz „Passt, wenn …“
+- Nach dem Problem-Abschnitt: Box „Erkennst du deinen Pitch wieder?“ mit Buchungsbutton
+- „So arbeite ich“: drei offene Kacheln statt zugeklappter Fragen
+- Kontaktbereich ohne doppelte „20 Minuten“-Zeile, kürzere Vertrauenszeile im Hero
+
+## Nachtrag 23.11.2026 (v8)
+- Konkrete Zusage für die 20 Minuten (Hero + Kontakt): Folie oder Satz vorab schicken
+- Neuer Block „Woran du es merkst“ vor dem Angebot (drei Ergebnisse in Vertriebssprache)
+- Kachel „Du brauchst keinen Türöffner.“ statt „Kein Matchmaking“
+- Onboarding-Module: Textlink „Vormerken: kurze Mail genügt“ (Betreff „Vormerkung Onboarding-Module“)
+- Google-Buchungsseite (manuell): Beschreibung und Zusatzfrage ergänzen
+
+## Nachtrag 23.11.2026 (v9)
+- Neuer Block „Warum ich als Entscheiderin Angebote abgelehnt habe“ nach „Über mich“ (drei Fälle: Einsparversprechen, Umlage auf Mieter, Laufzeit gegen Haltedauer), DE und EN
+
+- „Passt, wenn …“ auch bei Onboarding-Modulen und Pitch-Audit kompakt (v9.1)
