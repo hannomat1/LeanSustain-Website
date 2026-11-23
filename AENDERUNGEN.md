@@ -58,3 +58,6 @@ Buchungslink eingetragen (23.11.2026): https://calendar.app.google/GSX7KYtsyRing
 - Neuer Block „Warum ich als Entscheiderin Angebote abgelehnt habe“ nach „Über mich“ (drei Fälle: Einsparversprechen, Umlage auf Mieter, Laufzeit gegen Haltedauer), DE und EN
 
 - „Passt, wenn …“ auch bei Onboarding-Modulen und Pitch-Audit kompakt (v9.1)
+- Fälle 1 und 3 nach Hannahs Korrektur angepasst (Durchschnittswerte statt Spitzenwerte; Laufzeit gegen Mietvertrag des Ankermieters)
+- Englisch von Business-Muttersprachler-Sicht überarbeitet (en/index.html, assets/site.js)
+- DE: „Deine Lösung“ statt „Ich biete“; Pitch-Audit komplett: Kunde setzt um, Hannah prüft nach (DE/EN)

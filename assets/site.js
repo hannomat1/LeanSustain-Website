@@ -14,19 +14,19 @@
   var T = en ? {
     names: { audit: 'Pitch Audit', kurs: 'Crash Course', training: 'Pitch Training', sparring: 'Sparring', onboarding: 'Onboarding Modules' },
     packs: {
-      partner: { d: '<b>Partnership · 12 months:</b> everything in Rebuild, plus 6 months of sparring on call and onboarding modules for new sales staff.', n: 'In the call we clarify whether Partnership fits your team. Then you receive a proposal for your company.' },
-      umbau:   { d: '<b>Rebuild:</b> rework your materials completely, build understanding across the team, practise the conversations.', n: 'In the call we clarify whether Rebuild fits your team. Then you receive a proposal for your company.' },
-      start:   { d: '<b>Starter:</b> Pitch Audit (compact) and Crash Course. You quickly see where it stalls, and your team understands why.', n: 'In the call we clarify whether Starter fits your team. Then you receive a proposal for your company.' },
-      all:     { d: 'Every building block can also be booked on its own.', n: 'In the call we clarify which building blocks fit your team. Then you receive a proposal for your company.' }
+      partner: { d: '<b>Partnership · 12 months:</b> everything in Rebuild, plus 6 months of on-call sparring and onboarding modules for new sales staff.<span class="fit">Right for you if you want to embed this in your sales team for good and regularly bring new people on board.</span>', n: 'On the call, we’ll work out whether Partnership is right for your team. You’ll then get a proposal for your company.' },
+      umbau:   { d: '<b>Rebuild:</b> rework your materials completely, build understanding across the team, practise the conversations.<span class="fit">Right for you if your materials don’t land with owners and important tenders are coming up.</span>', n: 'On the call, we’ll work out whether Rebuild is right for your team. You’ll then get a proposal for your company.' },
+      start:   { d: '<b>Starter:</b> Pitch Audit (compact) and Crash Course. You quickly see where things stall, and your team understands why.<span class="fit">Right for you if you first want to see where your pitch gets stuck.</span>', n: 'On the call, we’ll work out whether Starter is right for your team. You’ll then get a proposal for your company.' },
+      all:     { d: 'Every building block can also be booked on its own.<span class="fit">Right for you if you know exactly which building block you need.</span>', n: 'On the call, we’ll work out which building blocks are right for your team. You’ll then get a proposal for your company.' }
     },
-    extra: 'Not included, can be added: '
+    extra: 'Not included, available as add-ons: '
   } : {
     names: { audit: 'Pitch-Audit', kurs: 'Crashkurs', training: 'Pitch-Training', sparring: 'Sparring', onboarding: 'Onboarding-Module' },
     packs: {
-      partner: { d: '<b>Partnerschaft · 12 Monate:</b> alles aus dem Umbau, dazu 6 Monate Sparring auf Abruf und Onboarding-Module für neue Vertriebsleute.', n: 'Im Gespräch klären wir, ob die Partnerschaft zu euch passt. Danach bekommst du ein Angebot für dein Unternehmen.' },
-      umbau:   { d: '<b>Umbau:</b> Unterlagen komplett umbauen, Verständnis im Team aufbauen, Gespräche üben.', n: 'Im Gespräch klären wir, ob der Umbau zu euch passt. Danach bekommst du ein Angebot für dein Unternehmen.' },
-      start:   { d: '<b>Einstieg:</b> Pitch-Audit kompakt und Crashkurs. Du siehst schnell, wo es hakt, und dein Team versteht, warum.', n: 'Im Gespräch klären wir, ob der Einstieg zu euch passt. Danach bekommst du ein Angebot für dein Unternehmen.' },
-      all:     { d: 'Alle Bausteine sind auch einzeln buchbar.', n: 'Im Gespräch klären wir, welche Bausteine zu euch passen. Danach bekommst du ein Angebot für dein Unternehmen.' }
+      partner: { d: '<b>Partnerschaft · 12 Monate:</b> alles aus dem Umbau, dazu 6 Monate Sparring auf Abruf und Onboarding-Module für neue Vertriebsleute.<span class="fit">Passt, wenn ihr das Thema dauerhaft im Vertrieb verankern wollt und regelmäßig neue Leute an Bord holt.</span>', n: 'Im Gespräch klären wir, ob die Partnerschaft zu euch passt. Danach bekommst du ein Angebot für dein Unternehmen.' },
+      umbau:   { d: '<b>Umbau:</b> Unterlagen komplett umbauen, Verständnis im Team aufbauen, Gespräche üben.<span class="fit">Passt, wenn eure Unterlagen bei Eigentümern nicht verfangen und wichtige Ausschreibungen anstehen.</span>', n: 'Im Gespräch klären wir, ob der Umbau zu euch passt. Danach bekommst du ein Angebot für dein Unternehmen.' },
+      start:   { d: '<b>Einstieg:</b> Pitch-Audit kompakt und Crashkurs. Du siehst schnell, wo es hakt, und dein Team versteht, warum.<span class="fit">Passt, wenn ihr erst sehen wollt, wo euer Pitch hängen bleibt.</span>', n: 'Im Gespräch klären wir, ob der Einstieg zu euch passt. Danach bekommst du ein Angebot für dein Unternehmen.' },
+      all:     { d: 'Alle Bausteine sind auch einzeln buchbar.<span class="fit">Passt, wenn ihr genau wisst, welchen Baustein ihr braucht.</span>', n: 'Im Gespräch klären wir, welche Bausteine zu euch passen. Danach bekommst du ein Angebot für dein Unternehmen.' }
     },
     extra: 'Nicht enthalten, einzeln dazubuchbar: '
   };
